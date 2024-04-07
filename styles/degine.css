@@ -1,0 +1,50 @@
+body {
+
+    font-family: "Salsa", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.text-primary {
+    color: brown;
+}
+
+.btn-primary {
+    border-radius: 5px;
+    background-color: rgb(16, 174, 199);
+    border: 0px;
+    color: rgb(47, 51, 50);
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-title {
+
+    color: black;
+    font-size: 45px;
+    font-weight: 800;
+}
+
+nav>ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 50px;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgba(25, 0, 255, 0.885);
+
+}
