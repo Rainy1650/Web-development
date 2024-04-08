@@ -64,7 +64,7 @@ nav a {
 }
 
 .header {
-    background-color: #ca8e91;
+    background-color: #fcf8f8;
     /* background-image: url('../Images/xinyi-w-qjCHPZbeXCQ-unsplash.jpg');*/
     background-repeat: no-repeat;
     background-position: bottom right;
@@ -99,6 +99,11 @@ nav a {
     margin-bottom: 20px;
 }
 
+.main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
 .banner-d {
     margin-top: 5px;
     margin-bottom: 30px;
@@ -107,10 +112,17 @@ nav a {
 .Batter {
     padding: 160px;
     border-radius: 10px;
-    background-color: azure;
+    background-color: #985054;
     background-image: url('../Images/collage.jpg');
-    background-repeat: no-repeat;
-    margin: 130px 30px ;
+    /* background-repeat: no-repeat;*/
+    margin: 130px 30px;
 
-    b
+}
+
+.about-info-contanier {
+    display: flex;
+    justify-content: space-around;
+}
+.about-inf{
+    text-align: center;
 }
