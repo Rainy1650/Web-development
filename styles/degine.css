@@ -103,7 +103,8 @@ nav a {
     max-width: 1140px;
     margin: 0 auto;
 }
-.main section{
+
+.main section {
     margin-top: 130px;
 }
 
@@ -155,8 +156,38 @@ nav a {
 .skill-description {
     color: rgb(0, 0, 0);
 }
-.resume-column-title{
+
+.resume-column-title {
     color: #000000;
     font-size: 30px;
     font-weight: 700;
+}
+
+.resumw-container {
+    display: flex;
+    gap: 500px
+}
+
+.resume-item-title {
+    color: rgb(81, 1, 1);
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.resume-item-infrom {
+    margin-bottom: 20px;
+}
+
+.resume-item-infrom,
+.resume-item-descriptione {
+    color: #985054;
+}
+
+.resumw-container hr {
+    margin: 30px;
+}
+.Download-pic{
+    text-align: center;
+    margin-top: 50px;
 }
