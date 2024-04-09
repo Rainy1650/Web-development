@@ -187,7 +187,20 @@ nav a {
 .resumw-container hr {
     margin: 30px;
 }
-.Download-pic{
+
+.Download-pic {
     text-align: center;
     margin-top: 50px;
+}
+
+/*.footer-colum,
+li {
+    li {
+        list-style-type: disc;
+    }
+}*/
+
+.btn-primary {
+    color: rgba(2, 10, 10, 0.886);
+    margin-top: 20px;
 }
